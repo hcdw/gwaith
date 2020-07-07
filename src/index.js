@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
+import Nav from './components/nav'
+import Footer from './components/footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <Nav />
+    <div className='content'>
+      <div className='copy'>
+        <h1>coming soon</h1>
+        <p>Find your next tech job in Wales</p>
+      </div>
+      <iframe className='substack' src="https://gwaith.substack.com/embed" ></iframe>
+    </div>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
