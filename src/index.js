@@ -13,7 +13,7 @@ ReactDOM.render(
         <h1>coming soon</h1>
         <p>Find your next tech job in Wales</p>
       </div>
-      <iframe className='substack' src="https://gwaith.substack.com/embed" ></iframe>
+      <iframe className='substack' title='Substack Sign-up' src="https://gwaith.substack.com/embed" ></iframe>
     </div>
     <Footer />
   </React.StrictMode>,

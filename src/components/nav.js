@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import logo from '../gwaith-io.svg' 
 import styles from './nav.module.scss'
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
